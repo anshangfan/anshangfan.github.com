@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>HomeWork</name>
+	<name>work</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1514449225621</id>
+			<id>0</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -34,7 +34,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1514462370921</id>
+			<id>1514853970886</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
