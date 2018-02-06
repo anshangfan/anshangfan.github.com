@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class test04{
     public static void main(String[] args) {
     	Scanner console=new Scanner(System.in);
-    	System.out.println("ÇëÊäÈëËæ»úÊı×î´óÖµµÄ·¶Î§£º");
+    	System.out.println("è¯·è¾“å…¥éšæœºæ•°æœ€å¤§å€¼çš„èŒƒå›´ï¼š");
     	int z=console.nextInt();
-    	System.out.println("ÇëÊäÈëÄúÒª²úÉúµÄËæ»úÊı¸öÊı£º");
+    	System.out.println("è¯·è¾“å…¥æ‚¨è¦äº§ç”Ÿçš„éšæœºæ•°ä¸ªæ•°ï¼š");
     	int n=console.nextInt();
     	console.close();
         Random i=new Random();
