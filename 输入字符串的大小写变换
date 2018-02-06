@@ -13,10 +13,10 @@ public class test02 {
         BufferedReader br = null;  
         BufferedWriter bw = null;  
         try {  
-            //¼üÅÌÂ¼Èë  
+            //é”®ç›˜å½•å…¥  
             br = new BufferedReader(new InputStreamReader(System.in));  
-            //ÆÁÄ»Êä³ö 
-            System.out.println("ÇëÊäÈë×Ö·û´®£º");
+            //å±å¹•è¾“å‡º 
+            System.out.println("è¯·è¾“å…¥å­—ç¬¦ä¸²ï¼š");
             bw = new BufferedWriter(new OutputStreamWriter(System.out));  
             String line = null;  
             while((line=br.readLine())!=null){  
@@ -27,7 +27,7 @@ public class test02 {
                 bw.flush();  
             }  
         } catch (Exception e) {  
-            //¼òµ¥´¦Àí  
+            //ç®€å•å¤„ç†  
             e.printStackTrace();  
         }finally{  
             try {  
@@ -40,22 +40,22 @@ public class test02 {
           
           
     }  
-    //×Ö·û×ª»»£¬Ö»¶Ô´óĞ¡Ğ´×ÖÄ¸½øĞĞ×ª»¯  
+    //å­—ç¬¦è½¬æ¢ï¼Œåªå¯¹å¤§å°å†™å­—æ¯è¿›è¡Œè½¬åŒ–  
     public static String wordChange(String line){  
         char[] ch = line.toCharArray();  
-        //¼ÓÈëStringBuilder¶Ô×ÖÄ¸½øĞĞÔö¼Ó  
+        //åŠ å…¥StringBuilderå¯¹å­—æ¯è¿›è¡Œå¢åŠ   
         StringBuilder sb = new StringBuilder();  
         for(int i =0;i<ch.length;i++){  
-            //¼ÓÈëÅĞ¶Ï£¬ÒòÎª´óĞ´×ÖÄ¸+32¾ÍÊÇĞ¡Ğ´×ÖÄ¸  
+            //åŠ å…¥åˆ¤æ–­ï¼Œå› ä¸ºå¤§å†™å­—æ¯+32å°±æ˜¯å°å†™å­—æ¯  
             if(ch[i]>='A'&&ch[i]<='Z'){  
                 ch[i]+=32;  
                 sb.append(ch[i]);  
-            ////¼ÓÈëÅĞ¶Ï£¬ÒòÎªĞ¡Ğ´×ÖÄ¸-32¾ÍÊÇ´óĞ´×ÖÄ¸  
+            ////åŠ å…¥åˆ¤æ–­ï¼Œå› ä¸ºå°å†™å­—æ¯-32å°±æ˜¯å¤§å†™å­—æ¯  
             }else if(ch[i]>='a'&&ch[i]<='z'){  
                 ch[i]-=32;  
                 sb.append(ch[i]);  
             }else{  
-                //¶ÔÆäËû×ÖÄ¸²»½øĞĞÅĞ¶Ï  
+                //å¯¹å…¶ä»–å­—æ¯ä¸è¿›è¡Œåˆ¤æ–­  
                 sb.append(ch[i]);  
             }  
         }  
