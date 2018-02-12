@@ -1,0 +1,13 @@
+public class test05 {
+		public static void main(String[] args) {
+        int x = 0;
+			  while (++x < 10) {
+				int y = 0;
+				while (++y <= x) {
+					System.out.print(x + "*" + y + "=" + (x*y) + "\t");
+				}
+				System.out.println();
+			}
+				
+			}
+		}
