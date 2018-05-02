@@ -1,0 +1,36 @@
+table{
+	width:99.1%;
+	height: 283px;
+	 border: 1px black solid;
+	 margin: 0px;
+	 margin-top: 0px;
+	 background-color: white;
+	 margin: auto;
+      margin-bottom: 10px;
+      
+}
+td,th{
+	width: 20px;
+	height: 10p6x;
+	border: 1px black solid;
+	text-align: center;
+}
+
+span{
+	text-align: center;
+}
+div{
+	border:1px solid black;
+	background-color: white;
+	margin-top: 1px;
+}
+.img{
+	width: 100%;
+	height: 25px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid black;
+}
+body{
+
+	padding: 5px;
+}

@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				font-size: 12px;
+				font-family: "微软雅黑";
+			}
+			.top{
+				height: 45px;
+				width: 100%;
+				background-image: url(img/login-top-bg.gif);
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			.middle{
+				height: 532px;
+				width: 100%;
+				background-image: url(img/login_bg.jpg);
+				position: absolute;
+				top: 45px;
+				left: 0px;
+			}
+			.left{
+				width: 45%;
+				height: 532px;
+				background-image: url(img/login-content-bg.gif);
+				background-position-x: right;
+				background-repeat: no-repeat;
+				float: left;
+			}
+			.left #img{
+				position: relative;
+				top: 140px;
+				left: 50%;
+			}
+			.left #email{
+				width: 430px;
+				height: 20px;
+				display: block;
+				color: darkgray;
+				text-align: center;
+				line-height: 10px;
+				position: relative;
+				top: 150px;
+				left: 20%;
+			}
+			.left #web{
+				width: 430px;
+				height: 20px;
+				display: block;
+				color: darkgray;
+				text-align: center;
+				line-height: 10px;
+				position: relative;
+				top: 155px;
+				left: 21%;
+			}
+			.left #info{
+				width: 80px;
+				height: 20px;
+				display: block;
+				text-decoration: none;
+				color: black;
+				font-size: 14px;
+				float: left;
+				text-align: center;
+				line-height: 10px;
+				position: relative;
+				top: 210px;
+				left: 20%;
+			}
+			.left #kefu{
+				width: 80px;
+				height: 20px;
+				display: block;
+				text-decoration: none;
+				color: black;
+				font-size: 14px;
+				float: left;
+				text-align: center;
+				line-height: 10px;
+				position: relative;
+				top: 210px;
+				left: 35%;
+			}
+			.center{
+				width: 25%;
+				height: 70px;
+				float: left;
+				padding: 60px;
+			}
+			#title{
+				width: 160px;
+				height: 20px;
+				display: block;
+				font-size: 15px;
+				font-family: "微软雅黑";
+				position: relative;
+				top: 90px;
+			}
+			#name{
+				width: 140px;
+				height: 20px;
+				position: relative;
+				top: 110px;
+			}
+			#password{
+				width: 140px;
+				height: 20px;
+				position: relative;
+				top: 130px;
+			}
+			#ck{
+				
+				width: 140px;
+				height: 20px;
+				position: relative;
+				top: 140px;
+				left: 60px;
+				margin-left: 10px;
+			}
+			.but{
+				width: 40px;
+				height: 20px;
+				border-radius: 2px;
+				margin-left: 64px;
+				position: relative;
+				top: 180px;
+			}
+			.but1{
+				width: 40px;
+				height: 20px;
+				border-radius: 2px;
+				margin-left: 85px;
+				position: relative;
+				top: 180px;
+			
+			}
+			.end {
+				width: 242px;
+				height: 532px;
+				float: left;
+			}
+			.end img{
+				position: relative;
+				top:390px;
+			}
+			.buttom{
+				width: 100%;
+				height: 60px;
+				background-image: url(img/login-buttom-bg.gif);
+				background-repeat-y:no-repeat;
+				position: absolute;
+				top: 532px;
+				text-align: center;
+				color: white;
+			}
+			.input{
+				width: 160px;
+				height: 15px;
+				background-color: white;
+			}
+			#luck{
+				width: 19px;
+				height: 18px;
+				position: relative;
+				top: 130px;
+				left: 140px;
+				background-image: url(img/luck.gif);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top"></div>
+			<div class="middle">
+				<div class="left">
+					<img src="img/logo.png" id="img"/>
+					<span id="email"><img src="img/icon-mail2.gif"/>&nbsp;客户服务邮箱：admin@apsfc.com</span>
+					<span id="web"><img src="img/icon-phone.gif"/>&nbsp;官方网站：http://www.apsfc.com</span>
+					<a href="#" id="info"><img src="img/icon-demo.gif"/>&nbsp;使用说明</a>
+					<a href="#" id="kefu"><img src="img/icon-login-seaver.gif"/>&nbsp;在线客服</a>
+				</div>
+				<div class="center">
+					<form action="Frame.html"> 
+						<span id="title">登录网上订餐后台管理</span>
+						<label id="name">管理员：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="input"/></label>
+						<br />
+						<label id="password">密&nbsp;&nbsp;&nbsp;码：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" class="input"/>
+						</label>
+						<span id="luck"></span>
+						<br />
+						<label id="ck"><input type="checkbox"/>5天内自动登录</label>
+						<br />
+						<input type="submit"  value="登录" class="but" />
+						<input type="reset"  value="取消"class="but1"/>
+					</form>
+				</div>
+				<div class="end">
+					<img src="img/login-wel.gif"/>
+				</div>
+				<div class="buttom">
+					Copyright&copy;2015-2020
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
